@@ -1,0 +1,9 @@
+code:
+  apicollective:
+    apibuilder-api:
+      version: latest
+      generators:
+        - generator: play_2_x_routes
+          target: conf
+          files:
+            - routes
